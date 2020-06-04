@@ -1,0 +1,55 @@
+{
+	// Based on the Night Owl theme by @sarah_edo https://github.com/sdras/night-owl-vscode-theme/
+
+	"name": "Night Owl ish",
+
+	"defaults": { 
+		// The default settings for text and appearance
+		
+		"text_color":"d6deeb",
+		"background":"011627",
+		"activeline_background":"0c2a42",
+		"matchingbracket_color":"ff2c83"
+	},
+	"gutters": {
+		// Styling the line gutters
+		
+		"background":"011627",
+		"text_color":"4b6479",
+		"border_color":"1d3b53"
+	},
+	"tokens": {
+		// The token styles
+		// syntax: "[tokenname]_[property]" : "[value]",
+		
+		// possible propertys [values]: 
+		// color [color], background [color], style [italic], decoration [underline, overline, line-line-through], weight [bold]
+		 
+		// This are the the supported default tokens:
+		// comment, number, atom, property, attribute, keyword, builtin, string, variable, variable2, variable3, def, bracket, tag, header, link, error
+		
+		"comment_color":"637777",
+    "comment_style":"italic",
+		"number_color":"F78C6C",
+		"atom_color":"ff2c83",
+		"property_color":"C792EA",
+		"attribute_color":"addb67",
+		"keyword_color":"c792ea",
+		"keyword_style":"italic",
+		"builtin_color":"82AAFF",
+		"string_color":"ecc48d",
+		"variable_color":"acdc61",
+		"variable2_color":"80CBC4",
+		"variable3_color":"f0ea96",
+		"def_color":"82AAFF",
+		"bracket_color":"7fdbca",
+		"tag_color":"82AAFF",
+		"header_color":"5f7e97",
+		"link_color":"ff869a",
+		"error_background":"EF5350",
+		"error_color":"011627"
+		
+		// You can also define custom tokens for your own custom syntax modes
+		// example: "mytoken_color" : "244,155,223"
+	}
+}
